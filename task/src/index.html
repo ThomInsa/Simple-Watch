@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Simple Stopwatch</title>
+</head>
+<body>
+<!--Stage 1: In this stage you'll work only on HTML content and CSS styles are applied on later stages-->
+        <h1 class="center">Simple Stopwatch</h1>
+        <p class = "timer" id = "timer">
+            <span class="digit" id="min">00</span>:<span class="digit" id="sec">00</span>:<span class="digit" id="count">00</span>
+        </p>
+        <div style="text-align: center">
+            <button class = "button" type = "button" id = "start">Start</button>
+            <button class = "button" id="stop">Stop</button>
+            <button class = "button" id="reset">Reset</button>
+            <button class = "button" id="lap">Lap</button>
+        </div>
+
+
+        <ol class ="laps" id = "laps"></ol>
+
+<script src="myscripts.js" async></script>
+</body>
+</html>
